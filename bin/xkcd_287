@@ -3,4 +3,4 @@
 require "bundler/setup"
 require "../lib/xkcd_287"
 
-MenuParser.new.start
+CLI.new.menu_input
