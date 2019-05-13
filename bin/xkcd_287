@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "../lib/xkcd_287"
+require "./lib/xkcd_287"
 
 CLI.new.menu_input
